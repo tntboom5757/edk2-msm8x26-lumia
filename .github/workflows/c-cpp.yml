@@ -1,5 +1,4 @@
 name: C/C++ CI
-
 on:
   push:
     branches: [ master ]
@@ -7,9 +6,7 @@ on:
     branches: [ master ]
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     run: git clone https://github.com/tntboom5757/edk2-msm8x26-lumia.git
     run: cd edk2-msm8x26-lumia
